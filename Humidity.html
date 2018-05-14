@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Weather Analysis Visualization for Temperature</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+		<nav class="navbar navbar-default">
+			<div class="container">
+				<div class="navbar-header">
+					<a class="navbar-brand logo" href="index.html">
+					<span class="nav-color">Latitude</span></a>
+				</div>
+				<div class="navbar">
+				<div class="nav navbar-nav navbar-right">
+					<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown">Plots</a>
+						<ul class="dropdown-menu">
+							<li<a href="temperature.html">Max Temperature</a></li>
+							<li<a href="humidity.html">Humidity</a></li>
+							<li<a href="cloudiness.html">Cloudiness</a></li>
+							<li<a href="WindSpeed.html">Wind Speed</a></li>
+						</ul>
+					</li>
+					<li><a href="comparison.html">Comparison</a></li>
+					<li><a href="data.html">Data</a></li>
+				</div>
+			</div>
+		</nav>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8">
+				<div class="panel panel-default">
+					<div class="panel-body">
+						<h2>Humidity</h2>
+						<hr>
+						<img class="Humidity image" src="humidity.png" alt="Humidity image">
+						<p>As you can see from the graph, as you get more into the tropical regions, it tends to be more humid.  Of course, there are other factors involved with humidity, such as altitude.</p>
+					<br>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="panel panel-default">
+					<div class="panel-body">
+						<h2>Visualizations</h2>
+						<hr>
+						<div class="row">
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><a href="temperature.html"><img class = "img img-responsive" src="temperature.png" style="width:100%" alt=""></a></div>
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><a href="humidity.html"><img class = "img img-responsive" src="humidity.png" style="width:100%" alt=""></a></div>
+						</div>
+						<div class="row">
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><a href="cloudiness.html"><img class = "img img-responsive" src="cloudiness.png" style="width:100%" alt=""></a></div>
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><a href="wind-speed.html"><img class = "img img-responsive" src="wind_speed.png" style="width:100%" alt=""></a></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
